@@ -1,8 +1,8 @@
-def my_collect(array)
+def my_collect(students)
   counter = 0
-  new_array = []
-    while counter < array.length
-      yield(new_array.push(array[counter].split(" ").first))
+  students_first_names = []
+    while counter < students.length
+      yield(students_first_names.push(students.split(" ").first))
      counter += 1
     end
   new_array

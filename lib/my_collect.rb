@@ -5,4 +5,5 @@ def my_collect(array)
       yield(new_array.push(array[counter].split(" "))
      counter += 1
     end
+  new_array
 end

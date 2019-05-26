@@ -5,5 +5,4 @@ def my_collect(students)
       yield(students_first_names.push(students.split(" ").first))
      counter += 1
     end
-  new_array
 end

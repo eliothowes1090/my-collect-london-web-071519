@@ -1,6 +1,6 @@
-def my_collect(students)
+def my_collect(collection)
   counter = 0
-  students_first_names = []
+  new_collection = []
     while counter < students.length
       yield(students_first_names.push(students.split(" ").first))
      counter += 1

@@ -1,8 +1,8 @@
 def my_collect(collection)
   counter = 0
     while counter < collection.length
-      yield(collection[counter])
+      new_collection = yield(collection[counter])
      counter += 1
     end
-    yield
+    new_collection
 end

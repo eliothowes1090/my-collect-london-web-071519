@@ -5,5 +5,5 @@ def my_collect(collection)
       yield(new_collection.push(collection.split(" ").first))
      counter += 1
     end
-  new_collection
+  return new_collection
 end
